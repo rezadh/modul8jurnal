@@ -11,7 +11,7 @@ public class Main {
         fib[0] = 0;
         fib[1] = 1;
         for(int i = 2; i < angka; i++){
-            fib[i] = fib[i-1] + fib[i-2];
+            fib[i] = fib[i-1];
         }
         for(int i = 0; i < angka; i++){
             System.out.print(fib[i] + " ");
